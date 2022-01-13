@@ -8,18 +8,14 @@
     <title>FAQ</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Ubuntu:ital,wght@1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/faq.css">
 </head>
 
 <body>
@@ -32,54 +28,76 @@
                 <a href="../index.html">Home</a> |
                 <a href="#">Sign Up</a> |
                 <a href="./faq.html">FAQ</a> |
-                <a href="#">Support</a> |
+                <a href="#">Support</a>
             </nav>
         </div>
     </header>
     <main>
-        <h2>
-            FAQ
-        </h2>
-        <section>
-            <dl>
-                <dt>
-                    <h4>How to Use Product?</h4>
-                </dt>
-                <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde optio cum quisquam, ullam
-                    magni nostrum porro numquam ipsa. Quis provident iusto inventore labore saepe minus voluptates porro
-                    odio necessitatibus.</dd>
-                <dt>
-                    <h4>
-                        How to get involved?
-                    </h4>
-                </dt>
-                <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, tenetur nisi numquam delectus alias
-                    sequi accusantium laborum velit repudiandae perspiciatis odit nemo quod officia, ab minima repellat
-                    inventore libero magni!</dd>
-            </dl>
-        </section>
+        <div class="container">
+            <h2>
+                FAQ:
+            </h2>
+            <section>
+                <dl>
+                    <div class="faq-question">
+                        <dt>
+                            <h4>How to Use Product?</h4>
+                        </dt>
+                        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde optio cum quisquam,
+                            ullam
+                            magni nostrum porro numquam ipsa. Quis provident iusto inventore labore saepe minus
+                            voluptates
+                            porro
+                            odio necessitatibus.</dd>
+                    </div>
+                    <div class='faq-question'>
+                        <dt class="faq-question">
+                            <h4>
+                                How to get involved?
+                            </h4>
+                        </dt>
+                        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, tenetur nisi numquam
+                            delectus
+                            alias
+                            sequi accusantium laborum velit repudiandae perspiciatis odit nemo quod officia, ab minima
+                            repellat
+                            inventore libero magni!</dd>
+                    </div>
+                </dl>
+            </section>
+        </div>
+
     </main>
 
     <footer>
-        <div class="contact">
-            <h5>Contact Us</h5>
-            <p>Amazeriffic!</p>
-            <p>555 Fiftieth Stree</p>
-            <p>Asheville, NC 28801</p>
+        <div class="container">
+            <div id="contact">
+                <h4 id="contact-header">Contact Us</h4>
+                <div class="footer-content">
+                    <p>Amazeriffic!</p>
+                    <p>555 Fiftieth Stree</p>
+                    <p>Asheville, NC 28801</p>
+                </div>
+            </div>
+            <div id="sitemap">
+                <h4 id="sitemap-header">
+                    SiteMap:
+                </h4>
+                <div class="footer-content">
+                    <ul id="footer-left-content">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                    <ul id="footer-right-content">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="./html/faq.html">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="sitemap">
-            <h5>
-                SiteMap
-            </h5>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="./faq.html">FAQ</a></li>
-                <li><a href="#">Careers</a></li>
-            </ul>
-        </div>
+
     </footer>
 </body>
 
