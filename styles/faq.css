@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(253, 253, 4);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    overflow: auto;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+
+}
+
+header nav {
+    float: right;
+    width: 285px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+#contact {
+    float: left;
+    width: 285px;
+}
+
+#sitemap {
+    float: right;
+    width: 285px;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    color: rgb(223, 9, 9);
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Courgette';
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Courgette';
+    font-size: 1.75em;
+}
+
+h4 {
+    font-family: 'Courgette';
+    color: rgb(223, 9, 9);
+    font-size: 1.5em;
+}
+
+/* Footer Specific */
+
+#footer-left-content {
+    float: left;
+    width: 142.5px;
+}
+
+#footer-right-content {
+    float: right;
+    width: 142.5px;
+}
+
+#sitemap-header {
+    border-bottom: 1px solid black;
+    max-width: 200px;
+    text-align: center;
+}
+
+#contact-header {
+    border-bottom: 1px solid black;
+    max-width: 150px;
+    text-align: center;
+}
+
+footer .container {
+    padding-top: 30px;
+}
+
+.footer-content {
+    padding-top: 30px;
+}
+
+a {
+    color: rgb(223, 9, 9);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-bottom: 5px;
+}
+
+main {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+main section {
+    padding-top: 30px;
+}
+
+main h2{
+    text-decoration: underline;
+}
+
+main dl {
+    border: 5px dashed black;
+}
+
+.faq-question {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.faq-question dt{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.faq-question:hover {
+    background-color: rgb(207, 194, 173);
+    color: white;
+}
