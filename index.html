@@ -8,66 +8,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/reset.css">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 
 <body>
     <header>
-        <h1>
-            Amazeriffic!
-        </h1>
-        <nav>
-            <a href="./index.html">Home</a> |
-            <a href="#">Sign Up</a> |
-            <a href="./html/faq.html">FAQ</a> |
-            <a href="#">Support</a> |
-        </nav>
+        <div class="container">
+            <h1>
+                Amazeriffic!
+            </h1>
+            <nav>
+                <a href="./index.html">Home</a> |
+                <a href="#">Sign Up</a> |
+                <a href="./html/faq.html">FAQ</a> |
+                <a href="#">Support</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <section id="mainContent">
-            <h2 id="description">
-                Amazeriffic will change your life!
-            </h2>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eveniet sint hic id illo magnam, magni
-                debitis facilis beatae. Sed saepe consequuntur, provident alias ab molestias? Pariatur itaque laborum
-                modi.
-            </p>
-            <h3 id="reasonsToNeed">
-                Here's why you need Amazeriffic!
-            </h3>
-            <ul>
-                <li>It fits your lifestyle</li>
-                <li>It's <strong>Awesome</strong></li>
-                <li>It rocks your world</li>
-            </ul>
-        </section>
-        <section id="logoContent">
-            <figure>
+        <div class="container">
+            <section id="mainContent">
+                <h2 id="description">
+                    Amazeriffic will change your life!
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eveniet sint hic id illo magnam,
+                    magni
+                    debitis facilis beatae. Sed saepe consequuntur, provident alias ab molestias? Pariatur itaque
+                    laborum
+                    modi.
+                </p>
+                <h3 id="reasonsToNeed">
+                    Here's why you need Amazeriffic!
+                </h3>
+                <ul>
+                    <li>It fits your lifestyle</li>
+                    <li>It's <strong>Awesome</strong></li>
+                    <li>It rocks your world</li>
+                </ul>
+            </section>
+            <section id="logoContent">
+                <figure>
 
-                <img src="./imgs/lightbulb.png" alt="lightbulb image" id="logo">
-            </figure>
-        </section>
+                    <img src="./imgs/lightbulb.png" alt="lightbulb image" id="logo">
+                </figure>
+            </section>
+        </div>
     </main>
 
     <footer>
-        <div class="contact">
-            <h5>Contact Us</h5>
-            <p>Amazeriffic!</p>
-            <p>555 Fiftieth Stree</p>
-            <p>Asheville, NC 28801</p>
-        </div>
-        <div class="sitemap">
-            <h5>
-                SiteMap
-            </h5>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="./html/faq.html">FAQ</a></li>
-                <li><a href="#">Careers</a></li>
-            </ul>
+        <div class="container">
+            <div id="contact">
+                <h4 id="contact-header">Contact Us</h4>
+                <div class="footer-content">
+                    <p>Amazeriffic!</p>
+                    <p>555 Fiftieth Stree</p>
+                    <p>Asheville, NC 28801</p>
+                </div>
+            </div>
+            <div id="sitemap">
+                <h4 id="sitemap-header">
+                    SiteMap:
+                </h4>
+                <div class="footer-content">
+                    <ul id="footer-left-content">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                    <ul id="footer-right-content">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="./html/faq.html">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
